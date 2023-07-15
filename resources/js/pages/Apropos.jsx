@@ -5,7 +5,7 @@ import {motion} from "framer-motion";
 function Apropos() {
     return (
         <div>
-            <div className='my-40 mx-32'>
+            <div className='my-36 mx-32'>
                 <h1 className="text-blue-300 text-2xl mb-5">Bonjour, je m'appelle</h1>
                 <div>< Titleanime/></div>
                 <div className="">
@@ -103,8 +103,8 @@ function Apropos() {
                                   damping: 200
                               }}>
                         Pour plus d’informations,
-                        <a className="text-info link-primary text-decoration-none"
-                           href="https://cv.mestdagh-christophe.ovh/">vous pouvez jeter un oeil à mon CV ici</a>
+                        <a className="text-blue-300  hover:text-blue-600 text-decoration-none"
+                           href="https://cv.mestdagh-christophe.ovh/">vous pouvez jeter un oeil à mon CV ici.</a>
                     </motion.p>
                 </div>
             </div>
@@ -112,6 +112,5 @@ function Apropos() {
     );
 
 }
-
 
 export default Apropos;

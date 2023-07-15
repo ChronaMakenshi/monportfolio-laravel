@@ -9,11 +9,12 @@ import cours from '../assets/cours.webp'
 export const realisationsList = [
     {
         id: '1',
-        name: 'Redscorpio4',
+        name: 'Redscorpio4 "Site vitrine"',
         image: redscorpio4,
-        programme: 'PHP/Symfony',
-        github: 'https://github.com/ChronaMakenshi/Redscorpio4',
-        width: "150px",
+        programme: 'PHP/Laravel',
+        github: 'https://github.com/ChronaMakenshi/Rescorpio4-laravel',
+        site: 'https://redscorpio4.com/',
+        width: "250px",
         height: "500px"
     },
 
@@ -23,7 +24,7 @@ export const realisationsList = [
         image: react,
         programme: 'React',
         github: 'https://github.com/ChronaMakenshi/cours-React-La-mauson-du-jardin',
-        width: "1000px",
+        width: "1500px",
         height: "500px"
     },
 
@@ -33,7 +34,7 @@ export const realisationsList = [
         image: angular,
         programme: 'Angular',
         github: 'https://github.com/ChronaMakenshi/AngularTest',
-        width: "1000px",
+        width: "1500px",
         height: "500px"
     },
 
@@ -43,7 +44,7 @@ export const realisationsList = [
         image: htmlcss,
         programme: 'HTML/CSS',
         github: 'https://github.com/ChronaMakenshi/HTML-CSS',
-        width: "700px",
+        width: "1000px",
         height: "500px"
     },
 
@@ -53,7 +54,7 @@ export const realisationsList = [
         image: wordpress,
         programme: 'Wordpress',
         github: 'https://github.com/ChronaMakenshi/Wordpress_cours',
-        width: "700px",
+        width: "600px",
         height: "500px"
     },
 
@@ -63,7 +64,7 @@ export const realisationsList = [
         image: cours,
         programme: 'Symfony 6',
         github: 'https://github.com/ChronaMakenshi/CFSMA',
-        width: "1000px",
-        height: "500px"
+        width: "1500px",
+        height: "400px"
     },
 ]
