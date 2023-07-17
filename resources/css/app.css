@@ -2,21 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-    font-family: "Courier New";
-    src: url("../js/assets/fonts/cour.ttf");
-}
-
-@font-face {
-    font-family: "Courier New bold";
-    src: url("../js/assets/fonts/Courier New Bold.ttf");
-}
-
-/*@font-face {*/
-/*    font-family: "Courier New bold";*/
-/*    src: url("../js/assets/fonts/Courier New Bold.ttf.ttf");*/
-/*}*/
-/* Base */
 
 .titleanime {
     animation: typewriter 4s steps(44) 1s 1 normal both,

@@ -1,18 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Inertia\Inertia; // We are going to use this class to render React components // Nous allons utiliser cette classe pour rendre les composants React
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider and all of them will
-| be assigned to the "web" middleware group. Make something great!
-|
-*/
-
-Route::view('/{path?}', 'welcome')
-    ->where('path', '.*');
-
+Route::get('/{path?}', function () {
+    return Inertia::render('Routes'); // This will get component Test.jsx from the resources/js/Pages/Test.jsx // Cela obtiendra le composant Test.jsx à partir des ressources/ js/Pages/Test.jsx
+});

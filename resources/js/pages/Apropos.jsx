@@ -1,4 +1,4 @@
-import Titleanime from "../components/titleanime.jsx";
+import Titleanime from "../Components/Titleanime";
 import {motion} from "framer-motion";
 
 
