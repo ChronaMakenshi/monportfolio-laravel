@@ -1,9 +1,9 @@
-import Formulaire from "../components/Formulaire";
+import Formulaire from "../Components/Formulaire";
 
 function Contact() {
     return (
         <div className="text-center  flex mx-auto items-center">
-            <div>
+            <div className="w-[600px]">
                 <Formulaire/>
                 <h2 className="my-5"><a className="text-blue-300 text-2xl"
                                     href="https://github.com/ChronaMakenshi">
