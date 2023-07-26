@@ -2,11 +2,11 @@ import Formulaire from "../Components/Formulaire";
 
 function Contact() {
     return (
-        <div className="text-center  flex mx-auto items-center">
-            <div className="w-[600px]">
+        <div className="text-center max-lg:my-36 max-2xl:my-96 max-sm:my-10 flex mx-auto max-lg:h-screen items-center">
+            <div className="mx-auto lg:w-[600px]">
                 <Formulaire/>
                 <h2 className="my-5"><a className="text-blue-300 text-2xl"
-                                    href="https://github.com/ChronaMakenshi">
+                                        href="https://github.com/ChronaMakenshi">
                     <span className="text-white">&lt;</span>Mon GitHub<span className="text-white">&gt;</span></a></h2>
                 <h2 className=""><a className="text-blue-300 text-2xl"
                                     href="https://www.linkedin.com/in/christophe-mestdagh-3a6002217/">

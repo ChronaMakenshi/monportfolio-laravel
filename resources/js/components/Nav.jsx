@@ -3,24 +3,24 @@ import {Link} from "react-router-dom";
 
 export default function Nav() {
     const navList = (
-        <ul className="mt-60 text-4xl font-semibold uppercase">
+        <ul className="max-2xl:flex max-2xl:items-center max-2xl:justify-center 2xl:mt-60 2xl:font-semibold uppercase">
             <li>
                 <Link to="/"
-                   className="block lg:inline-block text-white text-4xl hover:text-blue-300 mr-4">
+                      className="block lg:inline-block text-white 2xl:text-4xl md:text-2xl hover:text-blue-300 mr-4">
                     À propos
                 </Link>
             </li>
             <li>
                 <Link to="/Realisation"
-                   className="block lg:inline-block my-8 text-white text-4xl hover:text-blue-300 mr-4">
+                      className="block lg:inline-block my-8 text-white 2xl:text-4xl md:text-2xl hover:text-blue-300 mr-4">
                     Réalisations
                 </Link>
             </li>
             <li>
-                <a href="/Contact"
-                   className="block lg:inline-block text-white text-4xl hover:text-blue-300">
+                <Link to="/Contact"
+                      className="block lg:inline-block text-white 2xl:text-4xl md:text-2xl hover:text-blue-300">
                     Contact
-                </a>
+                </Link>
             </li>
         </ul>
     );
@@ -36,12 +36,12 @@ export default function Nav() {
             }}
         >
             <nav
-                className="bg-black w-96 rounded-none border h-screen border-2 border-white">
+                className="bg-black 2xl:w-96 rounded-none border 2xl:h-screen border-2 border-white">
                 <div className="text-center">
                     {navList}
                 </div>
                 <div>
-                    <h6 className='absolute bottom-1 text-white inset-x-4'>
+                    <h6 className='max-2xl:hidden absolute bottom-1 text-white inset-x-4'>
                         Christophe Mestdagh - Copyright 2023
                     </h6>
                 </div>

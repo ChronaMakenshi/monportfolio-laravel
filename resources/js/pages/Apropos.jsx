@@ -5,11 +5,11 @@ import {motion} from "framer-motion";
 function Apropos() {
     return (
         <div>
-            <div className='my-36 mx-32'>
-                <h1 className="text-blue-300 text-2xl mb-5">Bonjour, je m'appelle</h1>
+            <div className='my-20 mx-20  max-sm:mx-10 max-sm:mt-20 max-sm:mb-20 max-xl:mt-80 max-xl:mb-96 max-xl:mx-32'>
+                <h1 className="text-blue-300 md:text-2xl mb-5">Bonjour, je m'appelle</h1>
                 <div>< Titleanime/></div>
                 <div className="">
-                    <motion.h2 className="text-blue-600 text-4xl"
+                    <motion.h2 className="text-blue-600 md:text-4xl text-2xl"
                                initial={{opacity: 0, y: -690}}
                                animate={{opacity: 1, y: 20}}
                                transition={{
@@ -35,7 +35,7 @@ function Apropos() {
                         Emploi et, en parallèle,
                         je me lance en Freelance.
                     </ motion.p>
-                    <motion.h2 className="text-blue-600 text-4xl"
+                    <motion.h2 className="text-blue-600 md:text-4xl text-2xl"
                                initial={{opacity: 0, y: -531}}
                                animate={{opacity: 1, y: 20}}
                                transition={{
@@ -61,7 +61,7 @@ function Apropos() {
                         <li>MySQL/PostgreSQL/SQLite</li>
                         <li>Wordpress</li>
                     </motion.ul>
-                    <motion.h2 className="text-blue-600 text-4xl"
+                    <motion.h2 className="text-blue-600 md:text-4xl text-2xl"
                                initial={{opacity: 0, y: -349}}
                                animate={{opacity: 1, y: 20}}
                                transition={{
@@ -83,7 +83,7 @@ function Apropos() {
                         <li>Photoshop/illustrator</li>
                         <li>Figma/Adobe xD</li>
                     </motion.ul>
-                    <motion.h2 className="text-blue-600 text-4xl"
+                    <motion.h2 className="text-blue-600 md:text-4xl text-2xl"
                                initial={{opacity: 0, y: -239}}
                                animate={{opacity: 1, y: 20}}
                                transition={{

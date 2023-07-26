@@ -16,8 +16,31 @@
         width: 620px;
     }
 }
+
 @keyframes blinkTextCursor {
     to {
         border-right-color: transparent;
+    }
+}
+
+@media (max-width: 765px) {
+    @keyframes typewriter {
+        from {
+            width: 0;
+        }
+        to {
+            width: 320px;
+        }
+    }
+}
+
+@media (max-width: 639px) {
+    @keyframes typewriter {
+        from {
+            width: 0;
+        }
+        to {
+            width: 220px;
+        }
     }
 }
