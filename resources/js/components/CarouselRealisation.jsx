@@ -32,11 +32,11 @@ export default function CarouselRealisation() {
                             </div>
                             <div className="flex justify-center gap-2">
                                 <Button color="gray">
-                                    <a href={realisationsList.github}>GITHUB</a>
+                                    <a href={realisationsList.github} target="_blank">GITHUB</a>
                                 </Button>
                                 {realisationsList.site ? (
                                     <Button color="gray">
-                                        <a href={realisationsList.site}>SITE</a>
+                                        <a href={realisationsList.site} target="_blank">SITE</a>
                                     </Button>) : (
                                     <div></div>
                                 )}

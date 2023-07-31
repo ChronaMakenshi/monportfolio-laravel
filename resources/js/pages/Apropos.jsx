@@ -104,7 +104,7 @@ function Apropos() {
                               }}>
                         Pour plus d’informations,
                         <a className="text-blue-300  hover:text-blue-600 text-decoration-none"
-                           href="https://cv.mestdagh-christophe.ovh/">vous pouvez jeter un oeil à mon CV ici.</a>
+                           href="https://cv.mestdagh-christophe.ovh/" target="_blank">vous pouvez jeter un oeil à mon CV ici.</a>
                     </motion.p>
                 </div>
             </div>
