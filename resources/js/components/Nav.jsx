@@ -36,7 +36,7 @@ export default function Nav() {
             }}
         >
             <nav
-                className="bg-black 2xl:w-96 rounded-none border 2xl:h-screen border-2 border-white">
+                className="bg-bbg-neutral-950  2xl:w-96 rounded-none border 2xl:h-screen border-2 border-white">
                 <div className="text-center">
                     {navList}
                 </div>

@@ -4,7 +4,8 @@ import angular from '../assets/Angular.webp'
 import htmlcss from '../assets/HTML-CSS.webp'
 import wordpress from '../assets/wordpress.webp'
 import cours from '../assets/cours.webp'
-
+import goldfishweb from '../assets/goldfishweb.png'
+import thefrenchtototte from '../assets/thefrenchtototte-goldfishweb.png'
 
 export const realisationsList = [
     {
@@ -65,6 +66,28 @@ export const realisationsList = [
         programme: 'Symfony 6',
         github: 'https://github.com/ChronaMakenshi/CFSMA',
         width: "1500px",
+        height: "400px"
+    },
+
+    {
+        id: '7',
+        name: 'GoldFishWeb"Site freelance"',
+        image: goldfishweb,
+        programme: 'Vue.js/Node.js',
+        github: 'https://github.com/ChronaMakenshi/GoldFishWeb',
+        site: 'https://www.goldfishweb.fr/',
+        width: "250px",
+        height: "500px"
+    },
+
+    {
+        id: '7',
+        name: 'The French Tototte "Concours de Bastiui et d\'Antoine Daniel"',
+        image: thefrenchtototte,
+        programme: 'HTML/CSS',
+        github: 'https://github.com/ChronaMakenshi/thefrenchtototte-bastiUI',
+        site: 'https://thefrenchtototte.goldfishweb.fr/',
+        width: "250px",
         height: "400px"
     },
 ]

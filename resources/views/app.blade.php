@@ -13,7 +13,7 @@
     @viteReactRefresh
     @vite(['resources/css/app.css', 'resources/js/app.jsx']) @inertiaHead
 </head>
-<body class="font-body  bg-black antialiased ">
+<body class="font-body  bg-neutral-950 antialiased ">
 @inertia
 <div class="absolute w-full">
     <h6 class='2xl:hidden bottom-1 border p-2  text-center text-white inset-x-4'>

@@ -5,35 +5,30 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Email</title>
+    <title>Mon portfolio :Email</title>
 </head>
 <style>
     body {
         background-color: black;;
         color: #fff;
     }
-
-    div {
+    div{
         text-align: center;
     }
-
     ul {
         display: inline-block;
         text-align: left;
     }
-
     h1 {
-        font-size: 3em;
+        font-size:3em;
         padding: 2rem;
         border: 5px solid;
         text-align: center;
     }
-
     h2 {
         text-align: center;
-        font-size: 2.5em;
+        font-size:  2.5em;
     }
-
     p {
         font-size: 2em;
         text-align: center;
@@ -42,14 +37,14 @@
 <body>
 <h1 class="">Demande de contact sur mon portfolio</h1>
 <div>
-    <ul>
-        <li>
-            Nom : {{ $data['name'] }}
-        </li>
-        <li>
-            E-mail : {{ $data['email'] }}
-        </li>
-    </ul>
+<ul>
+    <li>
+        Nom : {{ $data['name'] }}
+    </li>
+    <li>
+        E-mail : {{ $data['email'] }}
+    </li>
+</ul>
 </div>
 <h2>**Message :**</h2>
 <p>
